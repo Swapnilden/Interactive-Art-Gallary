@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Art Gallery</h1>
+    </header>
+    <main>
+        <section id="gallery">
+            <div class="artwork" data-id="1">
+                <img src="images/art1.jpg" alt="Art 1">
+                <p>Artwork 1</p>
+            </div>
+            <div class="artwork" data-id="2">
+                <img src="images/art2.jpg" alt="Art 2">
+                <p>Artwork 2</p>
+            </div>
+            <div class="artwork" data-id="3">
+                <img src="images/art3.jpg" alt="Art 3">
+                <p>Artwork 3</p>
+            </div>
+        </section>
+        <section id="art-detail" class="hidden">
+            <button id="back-button">Back to Gallery</button>
+            <div id="art-info">
+                <img id="art-image" src="" alt="">
+                <h2 id="art-title"></h2>
+                <p id="art-description"></p>
+            </div>
+            <div id="comments-section">
+                <h3>Comments</h3>
+                <ul id="comments-list"></ul>
+                <textarea id="comment-input" placeholder="Add a comment..."></textarea>
+                <button id="submit-comment">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
