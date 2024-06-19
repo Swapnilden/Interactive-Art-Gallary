@@ -24,11 +24,11 @@ To run this project locally, you need a web browser and a text editor.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/interactive-art-gallery.git
-```
+
 2. Navigate to the project directory:
-  ```bash
-  cd interactive-art-gallery
-```
+      ```bash
+      cd interactive-art-gallery
+
 
 ### Usage
 1. Open index.html in your web browser to view the homepage with the art gallery.
